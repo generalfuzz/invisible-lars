@@ -1,0 +1,45 @@
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+.page {
+  height: 100%;
+}
+
+.instructions {
+  font: 30px/65px 'Lato', sans-serif;
+  text-align: center;
+}
+
+.details {
+  font: 20px/40px 'Lato', sans-serif;
+  color: darkslategray;
+}
+
+.important {
+  font: 25px/30px 'Lato', sans-serif;
+  color: darkred;
+  font-weight: bold;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498DB;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
